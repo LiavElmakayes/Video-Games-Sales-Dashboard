@@ -14,27 +14,27 @@ The dashboard allows users to explore sales trends across genres, years, regions
 
 ## 📄 Dashboard Overview
 
-### **Page 1 – Filters**
+### **Page 1 - Filters**
 - **Year Slicer:** Filter data between 1980-2020  
 - **Genre Slicer:** Filter by game genre  
 > All other pages sync with these slicers, allowing interactive filtering across the dashboard.
 
-### **Page 2 – KPI Cards**
+### **Page 2 - KPI Cards**
 Displays key metrics for a quick overview:
-1. **Sum of Global Sales** – Total worldwide sales  
-2. **Average of Global Sales** – Average sales per game  
-3. **Count of Publishers** – Number of unique publishers  
-4. **Count of Platforms** – Number of unique gaming platforms
+1. **Sum of Global Sales** - Total worldwide sales  
+2. **Average of Global Sales** - Average sales per game  
+3. **Count of Publishers** - Number of unique publishers  
+4. **Count of Platforms** - Number of unique gaming platforms
 
-### **Page 3 – Visuals**
-1. **Global Sales Over Time (Line Chart)** – Shows worldwide sales trends across years  
-2. **Sales by Genre and Region (Stacked Bar Chart)** – Compares sales per genre and per region (NA, EU, JP, Other)
+### **Page 3 - Visuals**
+1. **Global Sales Over Time (Line Chart)** - Shows worldwide sales trends across years  
+2. **Sales by Genre and Region (Stacked Bar Chart)** - Compares sales per genre and per region (NA, EU, JP, Other)
 
-### **Page 4 – Top 10 Games**
+### **Page 4 - Top 10 Games**
 - **Table** displaying: Platform, Name, and Sum of Global Sales  
 - Shows the top-selling 10 games globally
 
-### **Page 5 – Heatmap: Genre vs Year**
+### **Page 5 - Heatmap: Genre vs Year**
 - **Matrix Visual** with:  
   - **Rows:** Year  
   - **Columns:** Genre  
@@ -52,4 +52,4 @@ Displays key metrics for a quick overview:
 
 ## 🚀 How to Open
 1. Clone this repository  
-2. Open `VideoGamesDashboard.pbix` in Power BI Desktop
+2. Open `SalesDashboard.pbix` in Power BI Desktop
