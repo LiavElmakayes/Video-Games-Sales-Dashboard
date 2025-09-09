@@ -1,43 +1,55 @@
-# Video Games Sales Dashboard
+# 🎮 Video Games Sales Dashboard
 
-This project is a Power BI dashboard analyzing video game sales data.
+Dashboard built with Power BI to analyze global video game sales from 1980 to 2020.  
+The dashboard allows users to explore sales trends across genres, years, regions, publishers, and platforms.
 
-## Description
-The dashboard provides insights into global video game sales from 1980 to 2020. It includes interactive visuals, KPIs, and a heatmap to explore trends over time, by genre, platform, and region.
+---
 
-## Pages Overview
+## 🛠️ Tools Used
+- **Power BI Desktop**  
+- **Dataset:** Video Game Sales (Kaggle)  
+- Optional: Python / SQL for preprocessing (if applicable)
 
-### 1. Slicers
-- Year (1980-2020)
-- Genre  
-All other pages sync with these slicers.
+---
 
-### 2. Cards
-- Sum of Global Sales
-- Average of Global Sales
-- Count of Publishers
-- Count of Platforms
+## 📄 Dashboard Overview
 
-### 3. Visuals
-- Global Sales Over Time (Line Chart)
-- Sales by Genre and Region (Stacked Bar Chart)
+### **Page 1 – Filters**
+- **Year Slicer:** Filter data between 1980-2020  
+- **Genre Slicer:** Filter by game genre  
+> All other pages sync with these slicers, allowing interactive filtering across the dashboard.
 
-### 4. Top 10 Games
-- Table with Platform, Name, and Sum of Global Sales
+### **Page 2 – KPI Cards**
+Displays key metrics for a quick overview:
+1. **Sum of Global Sales** – Total worldwide sales  
+2. **Average of Global Sales** – Average sales per game  
+3. **Count of Publishers** – Number of unique publishers  
+4. **Count of Platforms** – Number of unique gaming platforms
 
-### 5. Heatmap: Genre vs Year
-- Matrix visualization
-- Rows: Year
-- Columns: Genre
-- Values: Sum of Global Sales
+### **Page 3 – Visuals**
+1. **Global Sales Over Time (Line Chart)** – Shows worldwide sales trends across years  
+2. **Sales by Genre and Region (Stacked Bar Chart)** – Compares sales per genre and per region (NA, EU, JP, Other)
 
-## Dataset
-- `vgsales.csv` contains the video games sales data used in the dashboard.
+### **Page 4 – Top 10 Games**
+- **Table** displaying: Platform, Name, and Sum of Global Sales  
+- Shows the top-selling 10 games globally
 
-## Tools Used
-- Power BI Desktop
-- Microsoft Excel (for initial data cleaning)
-- CSV for data storage
+### **Page 5 – Heatmap: Genre vs Year**
+- **Matrix Visual** with:  
+  - **Rows:** Year  
+  - **Columns:** Genre  
+  - **Values:** Sum of Global Sales  
+- Highlights trends of popular genres over time
 
-## Author
-Liav Elmakayes
+---
+
+## 🔍 Key Insights
+- Action and Sports are the most popular genres globally  
+- Top-selling games dominated by Wii Sports
+- Sales peaked between 2002-2011  
+
+---
+
+## 🚀 How to Open
+1. Clone this repository  
+2. Open `VideoGamesDashboard.pbix` in Power BI Desktop
