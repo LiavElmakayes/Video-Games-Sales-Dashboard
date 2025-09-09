@@ -32,7 +32,7 @@ All other pages sync with these slicers.
 - Values: Sum of Global Sales
 
 ## Dataset
-- `dataset.csv` contains the video games sales data used in the dashboard.
+- `vgsales.csv` contains the video games sales data used in the dashboard.
 
 ## Tools Used
 - Power BI Desktop
